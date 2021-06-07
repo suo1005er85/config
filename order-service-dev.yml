@@ -17,6 +17,11 @@ spring:
   cloud:
     config:
       override-none: true
+  rabbitmq:
+    host: 192.168.88.128
+    port: 15672
+    username: admin
+    password: admin
   
 server:
   port: 8201 
@@ -26,6 +31,11 @@ spring:
   cloud:
     config:
       override-none: true
+  rabbitmq:
+    host: 192.168.88.128
+    port: 5672
+    username: admin
+    password: admin
 server:
   port: 8202 
 
