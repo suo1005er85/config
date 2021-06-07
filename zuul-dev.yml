@@ -3,8 +3,9 @@ spring:
     name: zuul
   rabbitmq:
     host: 192.168.88.128
-    username: admin
-    password: admin
+    port: 5672
+    username: root
+    password: root
 server:
   port: 3001
 eureka:
